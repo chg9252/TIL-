@@ -29,6 +29,23 @@ Maven의 기능을 이용하기 위해 POM이 사용된다.
 <br>빌드 환경 : 사용자 환경 별로 달라질 수 있는 프로파일 정보
 <br>pom 연관 정보 : 의존 프로젝트(모듈), 상위 프로젝트, 포함하고 있는 하위 모듈 등
 
+```
+
+ <dependencies>
+	<dependency>
+	    <groupId>org.apache.tomcat</groupId>
+	    <artifactId>tomcat-api</artifactId>
+	    <version>10.0.18</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-webmvc</artifactId>
+	    <version>5.3.16</version>
+	</dependency>
+ </dependencies>
+```
 
 <br><br><br>
 
