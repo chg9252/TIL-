@@ -46,6 +46,23 @@ Maven의 기능을 이용하기 위해 POM이 사용된다.
 	</dependency>
  </dependencies>
 ```
+<br><br><br>
+
+## gradle이란?
+Groovy를 기반으로 한 오픈소스 빌드 도구이다. Ant의 자유도와 Maven의 관례를 통한 접근성을 바탕으로 이전 빌드툴의 단점을 보완하여 개선된 서비스를 제공한다.
+
+### 특징:
+Ant처럼 매우 유연한 범용 빌드 도구.
+<br>Maven과 같은 구조화 된 build프레임워크 (구조의 전환이 가능).
+<br>Maven, Ivy등의 기존 저장소 인프라 또는 pom.xml 파일과 ivy.xml 파일에 대한 migration의 편이성 제공
+<br>멀티 프로젝트 빌드 지원.
+<br>의존성 관리의 다양한 방법 제공
+Build script를 xml이 아닌 Groovy 기반의 DSL(Domain Specific Language)을 사용
+<br>기존 Build를 구성하기 위한 풍부한 도메인 모델 제공.
+<br>Gradle 설치 없이 Gradle Wrapper를 이용하여 빌드 지원
+
+Ant, Maven과 같은 기존의 빌드툴은 xml형식을 이용하여 정적인 설정정보를 구성했다.
+<br>Gradle은 Groovy라는 언어를 이용하여 코드로서 설정정보를 구성하기 때문에 구조적인 장점이 있다.
 
 <br><br><br>
 
